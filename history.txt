@@ -1,0 +1,16 @@
+
+sudo apt install maven
+mvn --version
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+sudo apt install tree -y
+
+cd my-app/
+
+tree
+mvn install
+
+tree
+java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+
+history | cut -c 8-
