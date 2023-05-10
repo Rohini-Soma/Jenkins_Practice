@@ -7,7 +7,6 @@ sudo apt install tree -y
 
 cd my-app/
 
-tree
 mvn install
 
 tree
