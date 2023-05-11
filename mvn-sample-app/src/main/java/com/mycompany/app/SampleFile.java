@@ -1,4 +1,4 @@
-public class HelloWorld {
+public class SampleFile {
   public static void main(String[] args) {
 	System.out.println("Hello, World From Varun Manik on date 9 apr 2023");
   }
